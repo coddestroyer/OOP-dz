@@ -1,0 +1,11 @@
+class User:
+  def __init__(self, username, password):
+    self.__username = username
+    self.__password = password
+  
+  @staticmethod
+  def is_strong_method(self):
+    return len(self.__password)>=6
+  @classmethod
+  def classmethod(cls):
+    return
